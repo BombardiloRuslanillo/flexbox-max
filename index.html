@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Info</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .wrapper {
+      background-color: #2f364d;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 30px;
+      width: 90%;
+      max-width: 1000px;
+      color: white;
+      box-sizing: border-box;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .buttons span {
+      background-color: red;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .images img {
+      width: 300px;
+      border-radius: 8px;
+    }
+
+    .title {
+      background-color: black;
+      padding: 15px 30px;
+      border-radius: 20px;
+      font-size: 24px;
+      text-align: center;
+      width: 200px;
+      margin: 0 auto 30px auto;
+    }
+
+    .texts {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .text-block {
+      background-color: red;
+      border-radius: 30px;
+      padding: 20px;
+      width: 45%;
+    }
+
+    .text-block p {
+      background-color: lime;
+      color: black;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="buttons">
+      <span>Display:flex;</span>
+      <span>Display:none;</span>
+      <span>Display:block;</span>
+      <span>Display:inline;</span>
+    </div>
+
+    <div class="images">
+      <img src="https://img-c.udemycdn.com/course/750x422/1727766_3342.jpg" alt="Flexbox" width="400">
+      <iframe width="400" height="200" src="https://www.youtube.com/embed/phWxA89Dy94?si=o7-5UnD_QlhhQafY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="title">FlexBox</div>
+
+    <div class="texts">
+      <div class="text-block">
+        <p>CSS Flexbox — это технология для создания сложных гибких макетов за счёт правильного размещения элементов на странице.</p>
+      </div>
+      <div class="text-block">
+        <p>Flexbox, veb-dizayn jarayonini sodda qiladi va elementlarni dinamik tarzda joylashuvini boshqarishga yordam beradi. Bu esa web sayt yoki ilovalarning yaratilishi va ularga moslashtirilishi jarayonini yengillashtiradi.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
